@@ -99,6 +99,12 @@ body {
 
 @media (min-width: 50em) {
 
+    body {
+        background-image: url(/images/bg-pattern-desktop.svg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
     .main__container {
         max-width: 1440px;
         display: grid;
