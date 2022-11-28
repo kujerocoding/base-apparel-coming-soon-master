@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="/style.css">
+    <script src="/main.js" defer></script>
     <title>Base Apparel Coming Soon Page</title>
 </head>
 <body>
@@ -24,12 +25,14 @@
         <div class="form__container">
             <form action="submit" class="form--email" novalidate>
                 <input type="email" class="input--email" name="" id="" placeholder="Email Address" novalidate>
+                <img src="/images/icon-error.svg" alt="" class="icon__error">
                 <button class="button--email--submit" type="submit">
                     <img src="/images/icon-arrow.svg" alt="">
                 </button>
+                <p class="message__email--empty"></p>
+                <p class="message__email--error"></p>
             </form>
-            <p class="message__email--empty"></p>
-            <p class="message__email--error"></p>
+            
             <!-- <label for="email" class="label__email"></label>
             <input class="input__email" type="email" id="email" name="email" required placeholder="Email Address">
             <button class="btn__arrow">
